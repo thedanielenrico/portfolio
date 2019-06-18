@@ -1,15 +1,26 @@
 import React from 'react';
 import './App.css';
-import {Jumbotron} from "reactstrap";
+import { Jumbotron } from "reactstrap";
 import NavBar from "./components/NavBar";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+
+import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <Jumbotron>This is a Jumbotron</Jumbotron>
+      <NavBar className="bg-transparent"></NavBar>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+
+          <Route exact path="/projects" component={Projects}/>
+
+        </Switch>
+      </Router>
+
     </div>
   );
 }
