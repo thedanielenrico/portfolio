@@ -4,11 +4,23 @@ body {
     border-color: rgb(209, 209, 209);
     color: rgb(92, 102, 112);
     font-family: 'Raleway', sans-serif;
-    height: 100vh;
+    height: auto;
+}
+nav {
+    margin: 40px;
+    color: rgb(92, 102, 112);
+    font-family: 'Raleway', sans-serif;
 }
 .jumbotron {
     background-color: red;
 }
 img {
     width: 200px;
+}
+p {
+    color: rgb(92, 102, 112);
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
 }

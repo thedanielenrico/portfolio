@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Jumbotron } from "reactstrap";
+import { Container } from "reactstrap";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Footer from "./components/Footer";
 
 import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 
@@ -11,16 +12,20 @@ import { BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <NavBar className="bg-transparent"></NavBar>
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
+      <Container>
 
-          <Route exact path="/projects" component={Projects}/>
+        <NavBar className="bg-transparent"></NavBar>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home} />
 
-        </Switch>
-      </Router>
+            <Route exact path="/projects" component={Projects} />
 
+          </Switch>
+        </Router>
+
+      </Container>
+      <Footer></Footer>
     </div>
   );
 }
