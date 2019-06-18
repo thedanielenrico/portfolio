@@ -4,4 +4,11 @@ body {
     border-color: rgb(209, 209, 209);
     color: rgb(92, 102, 112);
     font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+.jumbotron {
+    background-color: red;
+}
+img {
+    width: 200px;
 }
