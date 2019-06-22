@@ -1,15 +1,36 @@
 const projects = [
     {
+        name: "My Grade Book",
+        github: "https://github.com/danmorales209/project-ld3",
+        deployed: "https://pacific-taiga-52007.herokuapp.com/teacher",
+        image: "./images/myGradeBook.png",
+
+    },
+    {
         name: "Hangman Game",
         github: "https://github.com/thedanielenrico/Word-Guess-Game",
         deployed: 'https://thedanielenrico.github.io/Word-Guess-Game/',
         image: "./images/hangman.png",
     },
     {
+        name: "Friend Finder",
+        github: "https://github.com/thedanielenrico/FriendFinder",
+        deployed: "https://boiling-temple-84585.herokuapp.com/",
+        image: "./images/friendFinder1.png",
+
+    },
+    {
         name: "Stone Collecter Game",
         github: "https://github.com/thedanielenrico/unit-4-game",
         deployed: "https://thedanielenrico.github.io/unit-4-game/",
         image: "./images/gemstone.png",
+
+    },
+    {
+        name: "Make It MES Software",
+        github: "https://github.com/thedanielenrico/project-cool-mes",
+        deployed: "https://enigmatic-plains-72936.herokuapp.com/",
+        image: "./images/makeIt.png",
 
     },
     {
@@ -34,20 +55,6 @@ const projects = [
 
     },
     {
-        name: "Friend Match",
-        github: "https://github.com/thedanielenrico/FriendFinder",
-        deployed: "https://boiling-temple-84585.herokuapp.com/",
-        image: "./images/friendFinder1.png",
-
-    },
-    {
-        name: "My Grade Book",
-        github: "https://github.com/danmorales209/project-ld3",
-        deployed: "https://pacific-taiga-52007.herokuapp.com/teacher",
-        image: "./images/myGradeBook.png",
-
-    },
-    {
         name: "Eat-da-burger",
         github: "https://github.com/thedanielenrico/burger",
         deployed: "https://desolate-fortress-38406.herokuapp.com/",
@@ -67,7 +74,7 @@ const projects = [
         deployed: "https://hidden-crag-77899.herokuapp.com/",
         image: "./images/newsSCraper.png",
 
-    }
+    },
 ]
 
 export default projects;

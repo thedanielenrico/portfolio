@@ -64,7 +64,7 @@ img {
 }
 .image:hover img {
     opacity: 0.3;
-    filter: brightness(70%);
+    background-color: white;
     transition: 0.5s;
 }
 .image:hover .link {
