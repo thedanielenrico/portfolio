@@ -1,6 +1,7 @@
 import React from 'react';
 import { Jumbotron } from "reactstrap";
-import Headshot from "../assets/images/headshot.JPG";
+// import Headshot from "./hangman.png";
+
 export default function Home() {
     return (
         <div>
@@ -12,7 +13,7 @@ export default function Home() {
 
                 <div className="row">
                     <div className="col-md-4">
-                        <img src={Headshot} alt="Daniel" />
+                        {/* <img src={Headshot} alt="Daniel" /> */}
                     </div>
                     <div className="col-md-8 col-sm-12 text-justify">
                         <p>
@@ -20,7 +21,7 @@ export default function Home() {
                             primarily use JavaScript, HTML, and CSS.
                             <br></br>
                             In my previous career as a music teacher I developed a passion for teaching <i>and</i> learning,
-                            which has helped tremendously as a web developer where I am constantly learning and teaching
+                            which has helped tremendously as a web developer where I am constantly learning anteaching
                             myself new things.
                             <br></br>
                             As a creative hands-on person, I also like to spend my time gardening, jamming on my guitar,

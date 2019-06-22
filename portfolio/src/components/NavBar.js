@@ -38,11 +38,11 @@ export default class Example extends React.Component {
                                 <NavLink href="/projects">Projects</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/thedanielenrico" target="_blank">
+                                <NavLink href="https://github.com/thedanielenrico" className="navIcon" target="_blank">
                                     <ion-icon name="logo-github"></ion-icon>
                                 </NavLink>
                             </NavItem>   <NavItem>
-                                <NavLink href="https://www.linkedin.com/in/daniel-enrico-50a38216b/" target="_blank">
+                                <NavLink href="https://www.linkedin.com/in/daniel-enrico-50a38216b/" className="navIcon" target="_blank">
                                     <ion-icon name="logo-linkedin"></ion-icon>
                                 </NavLink>
                             </NavItem>
