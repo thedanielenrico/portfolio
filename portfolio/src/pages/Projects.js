@@ -16,7 +16,8 @@ export default class Projects extends React.Component {
                     </div>
                     <hr></hr>
                     <div className="row">
-                        <ProjectCard image={ProjectsObj[0].image}></ProjectCard>
+                        {ProjectsObj.map(el => <ProjectCard image={el.image} deployed={el.deployed} github={el.github}></ProjectCard>)}
+                        
 
                     </div>
                 </Jumbotron>
