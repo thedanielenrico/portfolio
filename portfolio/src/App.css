@@ -71,36 +71,34 @@ img {
     opacity: 1;
     z-index: 2;
 }
-.icon {
-    font-size: 30px;
-    background-color: white;
-    color: black;
-    border-radius: 25%;
-    margin: 4px;
-}
+
 .gitIcon {
     transition: transform 0.5s;
+    font-size: 30px;
+    background-color: white;
+    color: RGB( 52, 73, 94);
+    border-radius: 25%;
+    margin: 4px;
     
 }
 .openIcon {
-    transition: transform 0.5s;
+    transition: transform 0.3s;
+    font-size: 30px;
+    background-color: white;
+    color: RGB( 52, 73, 94);
+    border-radius: 25%;
+    margin: 4px;
 }
 .gitIcon:hover {
-    background-color: black;
-    color: white;
+    color: rgb(52, 152, 219 ) ;
     transform: rotateY(180deg);
     transition-delay: 0.1s;
 }
 .openIcon:hover {
-    background-color: black;
-    color: white;
-    transform: rotateY(360deg);
-    transition-delay: 0.1s;
+    color: lightseagreen;
+    transform: scale(1.15);
 }
 .title {
     color: gray;
     font-weight: 900;
-}
-.description {
-    
 }
