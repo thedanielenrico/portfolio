@@ -18,7 +18,7 @@ const projects = [
         github: "https://github.com/thedanielenrico/FriendFinder",
         deployed: "https://boiling-temple-84585.herokuapp.com/",
         image: "./images/friendFinder1.png",
-        description: "A quick survey to find a compatiable find.",
+        description: "A quick survey to find a compatiable friend.",
     },
     {
         name: "Stone Collecter Game",
