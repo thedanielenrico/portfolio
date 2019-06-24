@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron } from "reactstrap";
-// import Headshot from "./hangman.png";
+// import Headshot from "./images/hangman.png";
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
 
                 <div className="row">
                     <div className="col-md-4">
-                        {/* <img src={Headshot} alt="Daniel" /> */}
+                        <img src="./images/headshot.JPG" alt="Daniel" />
                     </div>
                     <div className="col-md-8 col-sm-12 text-justify">
                         <p>

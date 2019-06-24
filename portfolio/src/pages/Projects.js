@@ -16,7 +16,7 @@ export default class Projects extends React.Component {
                     </div>
                     <hr></hr>
                     <div className="row">
-                        {ProjectsObj.map(el => <ProjectCard image={el.image} deployed={el.deployed} github={el.github}></ProjectCard>)}
+                        {ProjectsObj.map(el => <ProjectCard image={el.image} deployed={el.deployed} github={el.github} name={el.name} description={el.description}></ProjectCard>)}
                         
 
                     </div>
