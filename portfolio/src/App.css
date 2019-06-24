@@ -80,6 +80,7 @@ img {
 }
 .gitIcon {
     transition: transform 0.5s;
+    
 }
 .openIcon {
     transition: transform 0.5s;
@@ -87,10 +88,19 @@ img {
 .gitIcon:hover {
     background-color: black;
     color: white;
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
+    transition-delay: 0.1s;
 }
 .openIcon:hover {
     background-color: black;
     color: white;
-    transform: rotateY(360deg)
+    transform: rotateY(360deg);
+    transition-delay: 0.1s;
+}
+.title {
+    color: gray;
+    font-weight: 900;
+}
+.description {
+    
 }
