@@ -15,7 +15,7 @@ export default function Home() {
                     <div className="col-md-4">
                         <img src="./images/headshot.JPG" alt="Daniel" />
                     </div>
-                    <div className="col-md-8 col-sm-12 text-justify">
+                    <div className="col-md-8 ">
                         <p>
                             I am a software engineer with experience in both back-end and front-end web development, I
                             primarily use JavaScript, HTML, and CSS.
@@ -27,7 +27,7 @@ export default function Home() {
                             As a creative hands-on person, I also like to spend my time gardening, jamming on my guitar,
                             playing with my daughters, and baking bread.
                         </p>
-                        <p class="col-md-8 col-sm-12 text-justify">
+                        <p class="col-md-8 ">
                             <h6>
                                 Email: thedanielenrico@gmail.com
                         </h6>
@@ -35,7 +35,7 @@ export default function Home() {
                                 Phone: (916)-719-8446
                         </h6>
                             <h6>
-                                <a href="./assets/danielEnricoResume.pdf" download="danielEnricoResume">View Resume</a>
+                                <a href="./assets/danielEnricoResume.pdf" download="danielEnricoResume">My Resume</a>
                             </h6>
                         </p>
 

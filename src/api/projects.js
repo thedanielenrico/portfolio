@@ -73,7 +73,7 @@ const projects = [
         name: "All The News",
         github: "https://github.com/thedanielenrico/newsScraper",
         deployed: "https://hidden-crag-77899.herokuapp.com/",
-        image: "./images/newsSCraper.png",
+        image: "./images/newsScraper.png",
         description: "Find and save news articles that interest you.",
     },
 ]
