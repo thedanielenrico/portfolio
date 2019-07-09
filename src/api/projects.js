@@ -31,7 +31,7 @@ const projects = [
         name: "Make It MES Software",
         github: "https://github.com/thedanielenrico/project-cool-mes",
         deployed: "https://enigmatic-plains-72936.herokuapp.com/",
-        image: "./images/makeIt.png",
+        image: "./images/makeIt.PNG",
         description: "A Manufacturing Execution System for small businesses.",
     },
     {
